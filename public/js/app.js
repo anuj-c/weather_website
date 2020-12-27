@@ -3,7 +3,7 @@ const search = document.querySelector('input');
 form.addEventListener('submit',(e) => {
     e.preventDefault();
     const location = search.value;
-    const url = 'http://localhost:3000/weather?place='+location;
+    const url = '/weather?place='+location;
     const para = document.getElementById('result');
     para.style.color = 'blue'
     para.innerHTML = 'Loading...';
