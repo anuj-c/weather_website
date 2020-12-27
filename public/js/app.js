@@ -1,5 +1,3 @@
-console.log('Client side javascript file is loaded');
-
 const form = document.querySelector('form');
 const search = document.querySelector('input');
 form.addEventListener('submit',(e) => {
