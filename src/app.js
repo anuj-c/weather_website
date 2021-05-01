@@ -31,7 +31,8 @@ app.get('/help', (req, res) => {
     res.render('help',{
         title: 'Help',
         name: 'Anuj Choure',
-        helptext:'This is some helpful text'
+        helptext:'This is a simple weather app. To get weather of a place just write the place name in the \
+        textbox and press enter. You will get the weather of that place'
     });
 })
 
